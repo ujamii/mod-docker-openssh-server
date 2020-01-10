@@ -1,0 +1,6 @@
+#!/usr/bin/with-contenv bash
+
+if [ ! -f /usr/bin/git ]; then
+  echo "Running Custom installation of git"
+  apk add --no-cache git
+fi
